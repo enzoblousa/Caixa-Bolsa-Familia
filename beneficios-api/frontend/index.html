@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Benefícios - Caixa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Caixa_Econ%C3%B4mica_Federal_logo.svg/2560px-Caixa_Econ%C3%B4mica_Federal_logo.svg.png" 
+         alt="Logo Caixa Econômica Federal" class="logo-caixa">
+    <h1>Sistema de Gestão de Benefícios Bolsa Família</h1>
+    <p>Caixa Econômica Federal</p>
+</header>
+
+        <!-- Formulário de Cadastro -->
+        <div class="section">
+            <h2>Cadastrar Novo Beneficiário</h2>
+            <form id="formBeneficiario">
+                <div class="form-group">
+                    <label for="nis">NIS:</label>
+                    <input type="text" id="nis" required placeholder="Digite o NIS (11 dígitos)">
+                </div>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required placeholder="Digite o nome completo">
+                </div>
+                <button type="submit">Cadastrar Beneficiário</button>
+            </form>
+        </div>
+
+        <!-- Lista de Beneficiários -->
+        <div class="section">
+            <h2>Beneficiários Cadastrados</h2>
+            <div class="filters">
+                <button onclick="carregarBeneficiarios()">Todos</button>
+                <button onclick="carregarAtivos()">Ativos</button>
+                <button onclick="carregarInativos()">Inativos</button>
+            </div>
+            <div id="listaBeneficiarios" class="beneficiarios-list">
+                <!-- Os beneficiários serão carregados aqui via JavaScript -->
+            </div>
+        </div>
+
+        <!-- Status da API -->
+        <div class="status-api">
+            <span id="status">API não conectada</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
