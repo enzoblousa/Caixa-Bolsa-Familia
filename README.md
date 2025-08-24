@@ -44,8 +44,8 @@ Esta API permite o **cadastro, consulta, atualização e gerenciamento** de bene
    cd beneficios-api
 
 2. ## Execute a aplicação:
-Usando Maven Wrapper
-  ./mvnw clean spring-boot:run
+Usando Maven Wrapper: ./mvnw clean spring-boot:run
+
 
 3. ## Acesse a aplicação:
    http://localhost:8080
