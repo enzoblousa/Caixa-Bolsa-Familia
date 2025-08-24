@@ -61,6 +61,10 @@ JDBC URL: jdbc:h2:mem:testdb
 
 Username: sa
 Password: (em branco)
+<img width="511" height="469" alt="image" src="https://github.com/user-attachments/assets/0a34850f-68b9-4cd6-b3e8-a7f4e56a06d0" />
+<img width="826" height="458" alt="image" src="https://github.com/user-attachments/assets/29860a7d-7500-4a9d-9f55-3352dee0357e" />
+
+
 
 ## Este projeto é para fins educacionais e de demonstração.
 
