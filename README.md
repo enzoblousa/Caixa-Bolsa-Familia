@@ -70,3 +70,4 @@ Password: (em branco)
 
 ## 📬 Contato
 ## https://www.linkedin.com/in/enzo-sp%C3%ADndola-1b747431a/
+## https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox
